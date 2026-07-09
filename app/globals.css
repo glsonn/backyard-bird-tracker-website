@@ -681,4 +681,13 @@ section {
   .nav.open + .header-cta {
     display: flex;
   }
+
+  .why-inner {
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .why-text {
+    margin: 0;
+  }
 }
