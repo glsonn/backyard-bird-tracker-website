@@ -17,7 +17,7 @@ export default function Header() {
 
           <div className="cta">
             <a href="/starter-kit" className="button primary cta">
-              Get Starter Kit
+              Get the Starter Kit
             </a>
           </div>
         </div>
