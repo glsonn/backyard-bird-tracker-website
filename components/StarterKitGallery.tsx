@@ -52,7 +52,11 @@ export default function StarterKitGallery() {
         </p>
 
         <div className="starter-actions">
-          <a href="#" className="button primary">
+          <a
+            href="/downloads/backyard-bird-tracker-starter-kit.pdf"
+            className="button primary"
+            download
+          >
             Download the Starter Kit
           </a>
         </div>

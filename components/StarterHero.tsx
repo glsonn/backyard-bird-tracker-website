@@ -14,7 +14,11 @@ export default function StarterHero() {
         </p>
 
         <div className="hero-actions">
-          <a href="#" className="button primary">
+          <a
+            href="/downloads/backyard-bird-tracker-starter-kit.pdf"
+            className="button primary"
+            download
+          >
             Download the Starter Kit
           </a>
 

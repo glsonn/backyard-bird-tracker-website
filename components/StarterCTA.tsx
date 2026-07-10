@@ -12,7 +12,11 @@ export default function StarterCTA() {
         </p>
 
         <div className="cta-actions">
-          <a href="#" className="button primary">
+          <a
+            href="/downloads/backyard-bird-tracker-starter-kit.pdf"
+            className="button primary"
+            download
+          >
             Download the Starter Kit
           </a>
 
