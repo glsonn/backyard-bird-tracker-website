@@ -557,6 +557,13 @@ section {
   flex-wrap: wrap;
 }
 
+.cta-note {
+  margin: 0;
+  font-size: 14px;
+  color: var(--color-muted);
+  line-height: 1.6;
+}
+
 .gallery-section {
   display: flex;
   flex-direction: column;
@@ -604,6 +611,18 @@ section {
   margin-top: var(--space-2);
   font-size: 14px;
   color: var(--color-muted);
+}
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-4);
+}
+
+@media (min-width: 768px) {
+  .steps-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .faq-section {
