@@ -8,8 +8,8 @@ export default function Hero() {
           <h1 className="hero-title">See who visits today.</h1>
 
           <p className="hero-subtitle">
-            A simple way to notice, record, and enjoy the birds that share your
-            everyday spaces.
+            Backyard Bird Tracker is a simple way to notice, record, and enjoy
+            the birds that share your everyday spaces.
           </p>
 
           <div className="hero-actions">

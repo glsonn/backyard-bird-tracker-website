@@ -5,7 +5,7 @@ export default function WhySection() {
     <section className="why">
       <Container variant="narrow">
         <div className="why-inner">
-          <h2 className="why-title">A quieter way to notice the world.</h2>
+          <h2 className="why-title">A simple way to start noticing.</h2>
 
           <p className="why-text">
             Most of us share our spaces with more wildlife than we realize. This

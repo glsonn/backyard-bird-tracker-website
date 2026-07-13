@@ -7,8 +7,8 @@ export default function AppHero() {
         <h1 className="hero-title">Keep track of the birds you discover.</h1>
 
         <p className="hero-subtitle">
-          A simple personal bird journal to record sightings, remember backyard
-          visitors, and notice patterns over time.
+          A simple bird journal to record sightings, remember backyard visitors,
+          and notice patterns over time.
         </p>
 
         <div className="hero-actions">

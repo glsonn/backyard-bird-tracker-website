@@ -6,7 +6,7 @@ export default function AppFeatures() {
         "Quickly save the birds you see, along with the date, location, and any notes you want to remember.",
     },
     {
-      title: "Build Your Bird Journal",
+      title: "Grow Your Bird Journal",
       description:
         "Create a personal history of your backyard visitors that grows with every observation.",
     },

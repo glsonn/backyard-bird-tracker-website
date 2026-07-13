@@ -26,6 +26,11 @@ const screenshots = [
     alt: "Recent sightings",
     title: "Look Back at Recent Visits",
   },
+  {
+    src: "/images/app/edit-sighting.png",
+    alt: "Editing notes for a bird sighting in the Backyard Bird Tracker app",
+    title: "Remember the Details",
+  },
 ];
 
 export default function AppGallery() {
