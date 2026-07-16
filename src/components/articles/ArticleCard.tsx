@@ -5,9 +5,10 @@ import { Article } from "@/src/types/article";
 
 type Props = {
   article: Article;
+  showReadMore?: boolean;
 };
 
-export default function ArticleCard({ article }: Props) {
+export default function ArticleCard({ article, showReadMore = true }: Props) {
   return (
     <article className="article-card">
       <Link href={`/articles/${article.slug}`} className="article-card-link">
@@ -26,7 +27,9 @@ export default function ArticleCard({ article }: Props) {
 
           <p className="article-card-excerpt">{article.excerpt}</p>
 
-          <span className="article-card-readmore">Read article →</span>
+          {showReadMore && (
+            <span className="article-card-readmore">Read article →</span>
+          )}
         </div>
       </Link>
     </article>

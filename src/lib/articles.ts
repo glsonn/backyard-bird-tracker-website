@@ -36,3 +36,17 @@ export function getAllArticles(): ArticleWithContent[] {
     .filter((article) => article.published)
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
+
+export function getAdjacentArticles(slug: string): {
+  previous: ArticleWithContent | null;
+  next: ArticleWithContent | null;
+} {
+  const articles = getAllArticles();
+
+  const index = articles.findIndex((article) => article.slug === slug);
+
+  return {
+    previous: index < articles.length - 1 ? articles[index + 1] : null,
+    next: index > 0 ? articles[index - 1] : null,
+  };
+}

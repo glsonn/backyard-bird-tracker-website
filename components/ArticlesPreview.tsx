@@ -1,6 +1,12 @@
 import Container from "@/components/layout/Container";
+import ArticleCard from "@/src/components/articles/ArticleCard";
+
+import { getAllArticles } from "@/src/lib/articles";
+import Link from "next/link";
 
 export default function ArticlesPreview() {
+  const articles = getAllArticles().slice(0, 3);
+
   return (
     <section className="articles">
       <Container variant="narrow">
@@ -13,31 +19,19 @@ export default function ArticlesPreview() {
           </p>
 
           <div className="articles-grid">
-            <article className="article-card card">
-              <p className="article-tag">Seasonal note</p>
-              <h3>Why winter feeders suddenly get busy</h3>
-              <p>
-                Cold weather reshapes backyard activity in predictable ways.
-              </p>
-            </article>
-
-            <article className="article-card card">
-              <p className="article-tag">Observation</p>
-              <h3>The quiet return of spring birds</h3>
-              <p>What to look for when migration begins again.</p>
-            </article>
-
-            <article className="article-card card">
-              <p className="article-tag">Guide</p>
-              <h3>Start identifying birds by behavior, not color</h3>
-              <p>A simpler way to recognize common backyard species.</p>
-            </article>
+            {articles.map((article) => (
+              <ArticleCard
+                key={article.slug}
+                article={article}
+                showReadMore={false}
+              />
+            ))}
           </div>
 
           <div className="articles-actions">
-            <a href="/articles" className="button secondary">
+            <Link href="/articles" className="button secondary">
               Read more articles
-            </a>
+            </Link>
           </div>
         </div>
       </Container>
