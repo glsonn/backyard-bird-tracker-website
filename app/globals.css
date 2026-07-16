@@ -807,8 +807,14 @@ section[id] {
 
 .articles-grid {
   display: grid;
-  gap: var(--space-6);
+  gap: var(--space-5);
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+@media (min-width: 768px) {
+  .articles-grid {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
 }
 
 .article-card {
