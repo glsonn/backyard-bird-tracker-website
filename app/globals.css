@@ -804,11 +804,23 @@ section[id] {
 .articles-header p {
   color: var(--color-text-muted);
 }
-
+/*
 .articles-grid {
   display: grid;
   gap: var(--space-5);
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+@media (min-width: 768px) {
+  .articles-grid {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+}
+*/
+.articles-grid {
+  display: grid;
+  gap: var(--space-5);
+  grid-template-columns: 1fr;
 }
 
 @media (min-width: 768px) {
@@ -951,4 +963,8 @@ section[id] {
 
 .about-section li {
   margin-bottom: 0.5rem;
+}
+
+* {
+  outline: 1px solid red;
 }
