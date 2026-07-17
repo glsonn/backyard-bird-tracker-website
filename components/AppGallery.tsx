@@ -66,7 +66,7 @@ export default function AppGallery() {
             href="https://app.backyardbirdtracker.com"
             className="button primary"
           >
-            Try the App
+            Open Backyard Bird Tracker
           </a>
         </div>
       </div>

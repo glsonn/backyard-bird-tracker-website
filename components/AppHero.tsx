@@ -16,7 +16,7 @@ export default function AppHero() {
             href="https://app.backyardbirdtracker.com"
             className="button primary"
           >
-            Try the App
+            Open Backyard Bird Tracker
           </a>
 
           <a href="#how-it-works" className="button secondary">

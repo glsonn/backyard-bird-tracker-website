@@ -16,7 +16,7 @@ export default function AppCTA() {
             href="https://app.backyardbirdtracker.com"
             className="button primary"
           >
-            Try the App
+            Open Backyard Bird Tracker
           </a>
         </div>
 
