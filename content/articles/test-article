@@ -14,3 +14,5 @@ published: true
 This is a test article.
 
 If you can see this page, the MDX article system is working.
+
+[Link text](URL for link)

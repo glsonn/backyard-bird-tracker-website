@@ -949,3 +949,32 @@ section[id] {
 .about-section li {
   margin-bottom: 0.5rem;
 }
+
+.article-body .article-gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-4);
+  margin: var(--space-6) 0;
+}
+
+@media (min-width: 768px) {
+  .article-body .article-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.article-gallery figure {
+  margin: 0;
+}
+
+.article-gallery img {
+  margin: 0;
+}
+
+.article-gallery figcaption {
+  margin-top: var(--space-2);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--color-muted);
+  text-align: center;
+}
