@@ -3,6 +3,7 @@ import ArticleHeader from "@/src/components/articles/ArticleHeader";
 import ArticleImage from "@/src/components/articles/ArticleImage";
 import ArticleBody from "@/src/components/articles/ArticleBody";
 import ArticleNavigation from "@/components/ArticleNavigation";
+import ArticleNewsletterCTA from "@/src/components/articles/ArticleNewsletterCTA";
 import { getAdjacentArticles } from "@/src/lib/articles";
 
 type Props = {
@@ -33,6 +34,8 @@ export default async function ArticlePage({ params }: Props) {
           <ArticleImage src={article.image} alt={article.imageAlt} />
 
           <ArticleBody content={article.content} />
+
+          <ArticleNewsletterCTA />
 
           <ArticleNavigation previous={previous} next={next} />
         </article>

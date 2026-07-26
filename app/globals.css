@@ -1036,3 +1036,26 @@ section[id] {
 .newsletter-form {
   margin-top: var(--space-3);
 }
+
+.article-newsletter-cta {
+  margin-top: var(--space-6);
+}
+
+.article-newsletter-cta hr {
+  margin-bottom: var(--space-6);
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+
+.article-newsletter-cta h2 {
+  margin-bottom: var(--space-3);
+}
+
+.article-newsletter-cta p {
+  margin-bottom: var(--space-3);
+}
+
+.article-newsletter-cta a {
+  display: inline-block;
+  margin-top: var(--space-2);
+}
