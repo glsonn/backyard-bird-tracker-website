@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Container from "./Container";
+import Link from "next/link";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -22,11 +23,12 @@ export default function Header() {
           </button>
 
           <nav className={`nav ${menuOpen ? "open" : ""}`}>
-            <a href="/">Home</a>
-            <a href="/starter-kit">Starter Kit</a>
-            <a href="/app">App</a>
-            <a href="/articles">Articles</a>
-            <a href="/about">About</a>
+            <Link href="/">Home</Link>
+            <Link href="/starter-kit">Starter Kit</Link>
+            <Link href="/app">App</Link>
+            <Link href="/articles">Articles</Link>
+            <Link href="/newsletter">Newsletter</Link>
+            <Link href="/about">About</Link>
           </nav>
 
           <div className="header-cta">

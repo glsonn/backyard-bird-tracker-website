@@ -1,4 +1,5 @@
 import Container from "./Container";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -10,13 +11,14 @@ export default function Footer() {
             <p className="mission-text">See who visits today.</p>
           </div>
 
-          <div className="footer-links">
-            <a href="/">Home</a>
-            <a href="/starter-kit">Starter Kit</a>
-            <a href="/app">App</a>
-            <a href="/articles">Articles</a>
-            <a href="/about">About</a>
-          </div>
+          <nav className="footer-links" aria-label="Footer navigation">
+            <Link href="/">Home</Link>
+            <Link href="/starter-kit">Starter Kit</Link>
+            <Link href="/app">App</Link>
+            <Link href="/articles">Articles</Link>
+            <Link href="/newsletter">Newsletter</Link>
+            <Link href="/about">About</Link>
+          </nav>
 
           <div className="footer-brand">
             <p>by Midwest Birds</p>

@@ -10,13 +10,17 @@ export default function ArticlesPage() {
     <main className="articles-page">
       <Container>
         <section className="articles-header">
-          <h1>Articles</h1>
+          <div className="hero-inner">
+            <p className="article-tag">ARTICLES</p>
 
-          <p>
-            Stories, guides, and seasonal observations to help you notice more
-            birds, enjoy their visits, and remember the moments that make
-            backyard birding rewarding.
-          </p>
+            <h1 className="hero-title">Articles</h1>
+
+            <p>
+              Stories, guides, and seasonal observations to help you notice more
+              birds, enjoy their visits, and remember the moments that make
+              backyard birding rewarding.
+            </p>
+          </div>
         </section>
 
         <section className="articles-grid">
