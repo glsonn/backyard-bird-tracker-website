@@ -170,6 +170,26 @@ export default function AboutPage() {
             would.
           </p>
         </section>
+
+        <section className="about-section">
+          <h2>Questions or Comments?</h2>
+
+          <p>I'd love to hear from you.</p>
+
+          <p>
+            Whether you have a question about Backyard Bird Tracker, a
+            suggestion for the app, or simply want to share something
+            interesting you've noticed in your own backyard, feel free to get in
+            touch.
+          </p>
+
+          <p>
+            <strong>Email:</strong>{" "}
+            <a href="mailto:contact@backyardbirdtracker.com">
+              contact@backyardbirdtracker.com
+            </a>
+          </p>
+        </section>
       </div>
     </main>
   );
