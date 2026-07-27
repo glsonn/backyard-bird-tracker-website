@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   title: "Backyard Bird Tracker",
   description:
     "Helping people notice, record, and enjoy the birds that share their everyday lives.",
+  other: {
+    "p:domain_verify": "f072f938b606d64bfbe6064c42e986ff",
+  },
 };
 
 export default function RootLayout({
