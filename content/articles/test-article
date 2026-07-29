@@ -15,4 +15,9 @@ This is a test article.
 
 If you can see this page, the MDX article system is working.
 
+<img
+  src="/images/articles/hawk-drinking.jpg"
+  alt="Red-tailed Hawk taking a drink"
+/>
+
 [Link text](URL for link)

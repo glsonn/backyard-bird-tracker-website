@@ -775,7 +775,7 @@ section[id] {
 
 .article-body img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
   border-radius: var(--radius-medium);
   margin: var(--space-8) auto;
