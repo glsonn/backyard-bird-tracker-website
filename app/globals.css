@@ -196,6 +196,20 @@ section {
   color: var(--color-primary);
 }
 
+.footer-social {
+  font-size: 14px;
+  color: var(--color-muted);
+}
+
+.footer-social a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.footer-social a:hover {
+  text-decoration: underline;
+}
+
 .footer-brand {
   font-size: 12px;
   color: var(--color-light);

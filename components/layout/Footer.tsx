@@ -20,6 +20,16 @@ export default function Footer() {
             <Link href="/about">About</Link>
           </nav>
 
+          <div className="footer-social">
+            <a
+              href="https://www.facebook.com/backyardbirdtracker"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Follow Backyard Bird Tracker on Facebook
+            </a>
+          </div>
+
           <div className="footer-brand">
             <p>by Midwest Birds</p>
           </div>
