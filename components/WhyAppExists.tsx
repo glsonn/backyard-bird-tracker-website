@@ -6,8 +6,8 @@ export default function WhyAppExists() {
 
         <p className="app-text">
           Some birds visit every day. Others appear only once or twice a year.
-          It's surprisingly easy to forget when you first spotted a hummingbird
-          or whether the bluebirds returned this spring.
+          It&apos;s surprisingly easy to forget when you first spotted a
+          hummingbird or whether the bluebirds returned this spring.
         </p>
 
         <p className="app-text">

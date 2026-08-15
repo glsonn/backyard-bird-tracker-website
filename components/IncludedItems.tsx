@@ -25,7 +25,7 @@ export default function IncludedItems() {
   return (
     <section id="inside">
       <div className="app-inner">
-        <h2 className="feature-title">What's Included</h2>
+        <h2 className="feature-title">What&apos;s Included</h2>
 
         <p className="app-text">
           Everything in the Starter Kit is designed to help you notice more,

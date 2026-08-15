@@ -5,7 +5,9 @@ export default function FinalCTA() {
     <section className="final-cta">
       <Container variant="narrow">
         <div className="cta-inner">
-          <h2 className="cta-title">Start noticing what's already there.</h2>
+          <h2 className="cta-title">
+            Start noticing what&apos;s already there.
+          </h2>
 
           <p className="cta-text">
             Your backyard is already full of life. The only thing missing is

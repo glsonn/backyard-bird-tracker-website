@@ -30,9 +30,9 @@ export default function StarterKitGallery() {
         <h2 className="feature-title">Take a Look Inside</h2>
 
         <p className="gallery-text">
-          Explore a few pages from the printable journal you'll receive. Every
-          page is designed to help you slow down, notice more, and enjoy the
-          birds that visit your backyard throughout the year.
+          Explore a few pages from the printable journal you&apos;ll receive.
+          Every page is designed to help you slow down, notice more, and enjoy
+          the birds that visit your backyard throughout the year.
         </p>
 
         <div className="gallery-grid">

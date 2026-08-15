@@ -11,34 +11,34 @@ export default function AboutPage() {
           <h1 className="hero-title">About Backyard Bird Tracker</h1>
 
           <p>
-            Backyard Bird Tracker began with a simple idea: Birdwatching doesn't
-            have to be complicated to be fun.
+            Backyard Bird Tracker began with a simple idea: Birdwatching
+            doesn&apos;t have to be complicated to be fun.
           </p>
 
           <p>
-            Some of the most memorable bird sightings don't happen on remote,
-            difficult hiking trails or once-in-a-lifetime vacations. They happen
-            in our own backyards, at the kitchen window, or while enjoying a
-            quiet morning on the patio. Those everyday moments are worth
-            noticing and worth remembering.
+            Some of the most memorable bird sightings don&apos;t happen on
+            remote, difficult hiking trails or once-in-a-lifetime vacations.
+            They happen in our own backyards, at the kitchen window, or while
+            enjoying a quiet morning on the patio. Those everyday moments are
+            worth noticing and worth remembering.
           </p>
 
-          <p>That's why I created Backyard Bird Tracker.</p>
+          <p>That&apos;s why I created Backyard Bird Tracker.</p>
         </section>
 
         <section className="about-section">
           <h2>Why I Built All This</h2>
 
           <p>
-            I like birds. I've always enjoyed watching them, but I’ve found that
-            most birding tools were designed for a different purpose than what I
-            wanted.
+            I like birds. I&apos;ve always enjoyed watching them, but I&apos;ve
+            found that most birding tools were designed for a different purpose
+            than what I wanted.
           </p>
 
           <p>
             Many excellent apps help identify birds or contribute observations
-            to scientific projects. Sure, they’re valuable tools, but I wanted
-            something simpler.
+            to scientific projects. Sure, they&apos;re valuable tools, but I
+            wanted something simpler.
           </p>
 
           <p>
@@ -62,8 +62,8 @@ export default function AboutPage() {
           <p>That simple idea became Backyard Bird Tracker.</p>
 
           <p>
-            All that’s true, as far as it goes, but there’s really a step or two
-            before that that really got me going with this.
+            All that&apos;s true, as far as it goes, but there&apos;s really a
+            step or two before that that really got me going with this.
           </p>
 
           <p>
@@ -72,8 +72,8 @@ export default function AboutPage() {
           </p>
 
           <p>
-            I immediately thought, “That’s it! That’s what I’ve been looking
-            for.” And so I’ll say it: The rest is history.
+            I immediately thought, “That&apos;s it! That&apos;s what I&apos;ve
+            been looking for.” And so I&apos;ll say it: The rest is history.
           </p>
         </section>
 
@@ -107,14 +107,14 @@ export default function AboutPage() {
 
           <p>
             The <Link href="/app">Backyard Bird Tracker app</Link> (also free)
-            gives you an easy way to keep a personal journal of the birds you've
-            seen, making it simple to look back at what you’ve seen in the past
-            days, weeks, months, and (eventually) years.
+            gives you an easy way to keep a personal journal of the birds
+            you&apos;ve seen, making it simple to look back at what you&apos;ve
+            seen in the past days, weeks, months, and (eventually) years.
           </p>
 
           <p>
-            It's not about building the biggest life list or competing with
-            anyone else. It's about enjoying the birds that visit your own
+            It&apos;s not about building the biggest life list or competing with
+            anyone else. It&apos;s about enjoying the birds that visit your own
             little corner of the world.
           </p>
         </section>
@@ -123,16 +123,16 @@ export default function AboutPage() {
           <h2>About Me</h2>
 
           <p>
-            My name is Gary Sonnenberg, but you can call me Papasonn. I've spent
-            much of my life enjoying the outdoors, taking photographs, and,
-            especially the past several years, just watching the birds.
+            My name is Gary Sonnenberg, but you can call me Papasonn. I&apos;ve
+            spent much of my life enjoying the outdoors, taking photographs,
+            and, especially the past several years, just watching the birds.
           </p>
 
           <p>
             I have a handful of feeders—tube, peanut, box, hummer, suet—in my
-            backyard. When it’s too hot or too cold here in Wisconsin to sit
-            outside and watch them, I can still see them on the other side of
-            the French doors in my dining room.
+            backyard. When it&apos;s too hot or too cold here in Wisconsin to
+            sit outside and watch them, I can still see them on the other side
+            of the French doors in my dining room.
           </p>
 
           <p>
@@ -158,29 +158,29 @@ export default function AboutPage() {
           </p>
 
           <p>
-            My goal isn't to build the biggest birding website on the
-            internet—though how cool would that be! It's to build a place that
-            helps people notice, record, and enjoy the birds that share their
-            everyday lives.
+            My goal isn&apos;t to build the biggest birding website on the
+            internet—though how cool would that be! It&apos;s to build a place
+            that helps people notice, record, and enjoy the birds that share
+            their everyday lives.
           </p>
 
           <p>
             If Backyard Bird Tracker helps you smile when an old feathered
-            friend returns to your yard, then it's doing exactly what I hoped it
-            would.
+            friend returns to your yard, then it&apos;s doing exactly what I
+            hoped it would.
           </p>
         </section>
 
         <section className="about-section">
           <h2>Questions or Comments?</h2>
 
-          <p>I'd love to hear from you.</p>
+          <p>I&apos;d love to hear from you.</p>
 
           <p>
             Whether you have a question about Backyard Bird Tracker, a
             suggestion for the app, or simply want to share something
-            interesting you've noticed in your own backyard, feel free to get in
-            touch.
+            interesting you&apos;ve noticed in your own backyard, feel free to
+            get in touch.
           </p>
 
           <p>

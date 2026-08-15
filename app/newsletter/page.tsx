@@ -19,18 +19,18 @@ export default function NewsletterPage() {
 
         <section className="newsletter-intro">
           <p>
-            The Backyard Bird Tracker Newsletter isn't about rare birds, birding
-            competitions, or breaking news.
+            The Backyard Bird Tracker Newsletter isn&apos;t about rare birds,
+            birding competitions, or breaking news.
           </p>
 
           <p>
-            It's a quiet weekly conversation for people who enjoy the birds that
-            visit their own backyards.
+            It&apos;s a quiet weekly conversation for people who enjoy the birds
+            that visit their own backyards.
           </p>
 
           <p>
-            Whether you've been feeding birds for decades or just noticed your
-            first cardinal, you're welcome here.
+            Whether you&apos;ve been feeding birds for decades or just noticed
+            your first cardinal, you&apos;re welcome here.
           </p>
         </section>
 
@@ -40,22 +40,22 @@ export default function NewsletterPage() {
           <blockquote>
             <p>
               I happened to glance out there once on Monday morning and saw a
-              small flock of black birds come in for a landing. I didn’t get a
-              good look though because something scared them up into our
+              small flock of black birds come in for a landing. I didn&apos;t
+              get a good look though because something scared them up into our
               30-year-old maple. I figured, “Must be a bunch of Grackles or
               maybe Red-winged Blackbirds.”
             </p>
 
             <p>
               A little later, they returned and stayed longer. I could see now
-              that they weren’t red-wings, and they were too small for Grackles.
-              I had to get my monocular to see what they really were.
+              that they weren&apos;t red-wings, and they were too small for
+              Grackles. I had to get my monocular to see what they really were.
             </p>
           </blockquote>
         </section>
 
         <section className="newsletter-contents">
-          <h2>Every Friday you'll receive</h2>
+          <h2>Every Friday you&apos;ll receive</h2>
 
           <ul>
             <li>A seasonal observation from the backyard</li>
@@ -70,8 +70,8 @@ export default function NewsletterPage() {
           <h2>Come along each Friday.</h2>
 
           <p>
-            If you'd enjoy one thoughtful email each week about the birds around
-            your home, we'd love to have you join us.
+            If you&apos;d enjoy one thoughtful email each week about the birds around
+            your home, we&apos;d love to have you join us.
           </p>
         </section>
 

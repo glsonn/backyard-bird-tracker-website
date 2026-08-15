@@ -23,7 +23,7 @@ export default function StarterHero() {
           </a>
 
           <a href="#inside" className="button secondary">
-            See What's Inside
+            See What&apos;s Inside
           </a>
         </div>
       </div>

@@ -9,11 +9,11 @@ export default function WhoItsFor() {
   return (
     <section>
       <div className="why-inner">
-        <h2 className="feature-title">Who It's For</h2>
+        <h2 className="feature-title">Who It&apos;s For</h2>
 
         <p className="why-text">
           The Starter Kit was designed for curious beginners and casual
-          birdwatchers. If any of these sound familiar, you're in the right
+          birdwatchers. If any of these sound familiar, you&apos;re in the right
           place:
         </p>
 

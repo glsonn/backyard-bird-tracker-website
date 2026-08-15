@@ -11,10 +11,10 @@ export default function ArticleNewsletterCTA() {
       </p>
 
       <p>
-        If you'd like something a little more personal, I also send a short
-        newsletter every Friday. It's filled with seasonal observations, gentle
-        journal prompts, things to watch for in the week ahead, and occasional
-        updates from Backyard Bird Tracker.
+        If you&apos;d like something a little more personal, I also send a short
+        newsletter every Friday. It&apos;s filled with seasonal observations,
+        gentle journal prompts, things to watch for in the week ahead, and
+        occasional updates from Backyard Bird Tracker.
       </p>
 
       <p>Think of it as coffee on the patio with another backyard birder.</p>

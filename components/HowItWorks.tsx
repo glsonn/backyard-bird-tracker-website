@@ -23,9 +23,9 @@ export default function HowItWorks() {
         <h2 className="feature-title">How It Works</h2>
 
         <p className="app-text">
-          Backyard Bird Tracker stays intentionally simple. The goal isn't to
-          collect more data—it's to help you enjoy the birds you notice every
-          day.
+          Backyard Bird Tracker stays intentionally simple. The goal isn&apos;t
+          to collect more data—it&apos;s to help you enjoy the birds you notice
+          every day.
         </p>
 
         <div className="steps-grid">

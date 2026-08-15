@@ -5,9 +5,10 @@ export default function PersonalJournal() {
         <h2 className="feature-title">A Personal Bird Journal</h2>
 
         <p className="app-text">
-          Backyard Bird Tracker isn't about building the biggest bird list or
-          competing with anyone else. It's a place to keep your own observations
-          and enjoy watching your backyard change through the seasons.
+          Backyard Bird Tracker isn&apos;t about building the biggest bird list
+          or competing with anyone else. It&apos;s a place to keep your own
+          observations and enjoy watching your backyard change through the
+          seasons.
         </p>
 
         <p className="app-text">
