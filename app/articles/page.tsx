@@ -13,7 +13,7 @@ export default function ArticlesPage() {
           <div className="hero-inner">
             <p className="article-tag">ARTICLES</p>
 
-            <h1 className="hero-title">Articles</h1>
+            <h1 className="hero-title">A Little More Time With the Birds</h1>
 
             <p>
               Stories, guides, and seasonal observations to help you notice more
