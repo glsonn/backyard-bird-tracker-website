@@ -6,6 +6,7 @@ import {
   getAdjacentNewsletters,
 } from "@/src/lib/newsletters";
 import ArticleBody from "@/src/components/articles/ArticleBody";
+import ArticleNavigation from "@/components/ArticleNavigation";
 
 type Props = {
   params: Promise<{
@@ -58,22 +59,11 @@ export default async function NewsletterIssuePage({ params }: Props) {
 
           <ArticleBody content={newsletter.content} />
 
-          <nav
-            className="article-navigation"
-            aria-label="Newsletter navigation"
-          >
-            {previous ? (
-              <a href={`/newsletter/${previous.slug}`}>← {previous.title}</a>
-            ) : (
-              <span />
-            )}
-
-            {next ? (
-              <a href={`/newsletter/${next.slug}`}>{next.title} →</a>
-            ) : (
-              <span />
-            )}
-          </nav>
+          <ArticleNavigation
+            previous={previous}
+            next={next}
+            basePath="/newsletter"
+          />
         </article>
       </div>
     </main>

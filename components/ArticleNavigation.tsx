@@ -1,13 +1,21 @@
 import Link from "next/link";
 
-import { Article } from "@/src/types/article";
-
-type Props = {
-  previous: Article | null;
-  next: Article | null;
+type NavigationItem = {
+  slug: string;
+  title: string;
 };
 
-export default function ArticleNavigation({ previous, next }: Props) {
+type Props = {
+  previous: NavigationItem | null;
+  next: NavigationItem | null;
+  basePath?: string;
+};
+
+export default function ArticleNavigation({
+  previous,
+  next,
+  basePath = "/articles",
+}: Props) {
   if (!previous && !next) return null;
 
   return (
@@ -17,12 +25,16 @@ export default function ArticleNavigation({ previous, next }: Props) {
       <div className="article-navigation-links">
         <div>
           {previous && (
-            <Link href={`/articles/${previous.slug}`}>← {previous.title}</Link>
+            <Link href={`${basePath}/${previous.slug}`}>
+              ← {previous.title}
+            </Link>
           )}
         </div>
 
         <div className="article-navigation-right">
-          {next && <Link href={`/articles/${next.slug}`}>{next.title} →</Link>}
+          {next && (
+            <Link href={`${basePath}/${next.slug}`}>{next.title} →</Link>
+          )}
         </div>
       </div>
     </nav>
