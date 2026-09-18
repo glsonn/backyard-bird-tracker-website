@@ -1,7 +1,10 @@
 import Container from "@/components/layout/Container";
 import NewsletterSignup from "@/src/components/newsletter/NewsletterSignup";
+import { getAllNewsletters } from "@/src/lib/newsletters";
 
 export default function NewsletterPage() {
+  const newsletters = getAllNewsletters();
+
   return (
     <main className="newsletter-page">
       <Container variant="narrow">
@@ -70,14 +73,52 @@ export default function NewsletterPage() {
           <h2>Come along each Friday.</h2>
 
           <p>
-            If you&apos;d enjoy one thoughtful email each week about the birds around
-            your home, we&apos;d love to have you join us.
+            If you&apos;d enjoy one thoughtful email each week about the birds
+            around your home, we&apos;d love to have you join us.
           </p>
         </section>
 
         <section className="newsletter-signup">
           <NewsletterSignup />
         </section>
+
+        {newsletters.length > 0 && (
+          <section className="newsletter-archive">
+            <h2>From the Newsletter</h2>
+
+            <div className="newsletter-archive-list">
+              {newsletters.map((newsletter) => (
+                <article
+                  key={newsletter.slug}
+                  className="newsletter-archive-item"
+                >
+                  <p className="article-tag">NEWSLETTER</p>
+
+                  <h3>
+                    <a href={`/newsletter/${newsletter.slug}`}>
+                      {newsletter.title}
+                    </a>
+                  </h3>
+
+                  <p className="newsletter-archive-date">
+                    {new Date(`${newsletter.date}T12:00:00`).toLocaleDateString(
+                      "en-US",
+                      {
+                        year: "numeric",
+                        month: "long",
+                        day: "numeric",
+                      },
+                    )}
+                  </p>
+
+                  <a href={`/newsletter/${newsletter.slug}`}>
+                    Read this issue →
+                  </a>
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
       </Container>
     </main>
   );

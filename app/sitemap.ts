@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getAllArticles } from "@/src/lib/articles";
+import { getAllNewsletters } from "@/src/lib/newsletters";
 
 const baseUrl = "https://backyardbirdtracker.com";
 
@@ -22,5 +23,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${baseUrl}/articles/${article.slug}`,
   }));
 
-  return [...pages, ...articles];
+  const newsletters: MetadataRoute.Sitemap = getAllNewsletters().map(
+    (newsletter) => ({
+      url: `${baseUrl}/newsletter/${newsletter.slug}`,
+    }),
+  );
+
+  return [...pages, ...articles, ...newsletters];
 }
